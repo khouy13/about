@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+    </style>
+    <script>
+$(function(){
+ //$('.d2').fadeOut('fast');
+ $('.btn2').click(function(){
+    $('.d1').css('color','white').slideUp('slow').slideDown('slow');
+ });
+$('.btn1').click(
+    function(){
+   $('.d1').parent(); 
+    
+});
+});
+    </script>
+</head>
+
+<body>
+    <button class="btn2">start</button>
+    <button class="btn1">stop</button>
+  <div class="d1 c1" style="padding:40px;background-color: dodgerblue;margin-top: 50px;">
+    <h2>div 1</h2>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic recusandae facilis harum doloremque odit laudantium quasi, odio ad reiciendis veniam amet iusto illo fugit architecto quidem dignissimos quae consequuntur consequatur?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore nemo, voluptas velit necessitatibus natus, inventore voluptate labore voluptates nihil modi sunt animi vel eum neque, molestiae eveniet quo tenetur?
+  </div>
+  <input type="text" value="abderrazzak">
+</body>
+</html
